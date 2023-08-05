@@ -1,32 +1,25 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "legacyhypixelfixes",
   "version": "${version}",
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Legacy Hypixel Fixes",
+  "description": "A small patcher mod for Legacy Fabric 1.8.9 for use on the Hypixel network.",
   "authors": [
-    "Me!"
+    "Crosby"
   ],
   "contact": {
-    "homepage": "https://legacyfabric.net/",
-    "sources": "https://github.com/Legacy-Fabric/fabric-example-mod"
+    "discord": "https://discord.gg/4RBmBCFSTc",
+    "sources": "https://github.com/RacoonDog/LegacyHypixelFixes",
+    "issues": "https://github.com/RacoonDog/LegacyHypixelFixes/issues"
   },
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
-  "environment": "*",
-  "entrypoints": {
-    "main": [
-      "net.fabricmc.example.ExampleMod"
-    ]
-  },
+  "license": "MIT",
+  "icon": "assets/legacyhypixelfixes/icon.png",
+  "environment": "client",
   "mixins": [
-    "modid.mixins.json"
+    "legacyhypixelfixes.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.14.19",
     "minecraft": "1.8.9"
-  },
-  "suggests": {
-    "another-mod": "*"
   }
 }
